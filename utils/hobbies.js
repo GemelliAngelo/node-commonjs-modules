@@ -6,4 +6,4 @@ const getHobbies = (...hobby) => {
   return activities;
 };
 
-module.exports(getHobbies);
+module.exports = getHobbies;

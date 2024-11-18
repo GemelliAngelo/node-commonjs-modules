@@ -1,4 +1,4 @@
-const names = require("./names");
-const hobbies = require("./hobbies");
+const getNameSurname = require("./utils/names.js");
+const getHobbies = require("./utils/hobbies.js");
 
-console.log(getNameSurname("Angelo,Gemelli"));
+console.log(getNameSurname("Angelo", "Gemelli"));
