@@ -1,11 +1,7 @@
 const getHobbies = (...hobby) => {
-  const activities = {
-    hobbies: [],
+  return {
+    hobbies: [...hobby],
   };
-  hobby.forEach((hobby) => {
-    activities.hobbies.push(hobby);
-  });
-  return activities;
 };
 
 module.exports = getHobbies;
